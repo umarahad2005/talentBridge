@@ -313,7 +313,12 @@ function ResultsContent() {
             {/* Footer */}
             <footer className="py-6 px-6 border-t border-white/5 relative z-20">
                 <div className="max-w-7xl mx-auto text-center text-gray-500 text-sm">
-                    <p>Results aggregated in real-time • Powered by <span className="text-indigo-400">Gemini AI</span></p>
+                    <p>
+                        Results aggregated in real-time • Powered by <span className="text-indigo-400">Gemini AI</span> • Made by{" "}
+                        <a href="/about" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+                            Umar Ahad Usmani
+                        </a>
+                    </p>
                 </div>
             </footer>
         </main>
